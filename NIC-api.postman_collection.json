@@ -1,0 +1,18 @@
+{
+	"info": {
+		"_postman_id": "42fee910-f60a-43bc-95cc-cdd86bf8c4fd",
+		"name": "NIC-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17663442"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
