@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "56459912-90d2-4923-8804-4db2efe015b1",
+		"name": "NIC_API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17663442",
+		"_collection_link": "https://planetary-moon-675995.postman.co/workspace/Mongo~6a673ceb-208d-41b1-9844-ca1c6466f94c/collection/17663442-56459912-90d2-4923-8804-4db2efe015b1?action=share&source=collection_link&creator=17663442"
+	},
+	"item": [
+		{
+			"name": "NIC-API",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userName\":\"chana\",\r\n    \"password\":\"chana123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/bus-booking-service/signin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"bus-booking-service",
+						"signin"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
